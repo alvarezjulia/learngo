@@ -8,6 +8,10 @@
 
 package main
 
+import (
+	"fmt"
+)
+
 // ---------------------------------------------------------
 // EXERCISE: Declare with bits
 //
@@ -37,8 +41,22 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// var i int
-	// var i8 int8
+	var (
+		i    int
+		i8   int8
+		i16  int16
+		i32  int32
+		i64  int64
+		f32  float32
+		f64  float64
+		c64  complex64
+		c128 complex128
+		b    bool
+		s    string
+		r    rune
+		by   byte
+	)
 
-	// CONTINUE FROM HERE....
+	fmt.Println(i, i8, i16, i32, i64, f32, f64, c64, c128, b, s, r, by)
+
 }
